@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #A72D35;
+}
+
+#logo{
+	display: flex;
+	width: 40%;
+	margin: 0.5rem;
+	padding: 20px;
+}
+
+.container-fluid{
+	background-color: #DD413A;
+}
+
+.list li{
+	display: inline;
+	margin: 0.5rem;
+	font-weight: 700;
+	height: 300px;
+}
+
+.item{
+	color: #EBEBEB;
+	font-weight: 700;
+	font-size: medium;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.item:hover{
+	color: black;
+}
+
+.index{
+	font-weight: 500;
+	font-size: medium;
+	text-align: left;
+	color: #BFBDB4;
+	margin: 3rem;
+	display: inline-block;
+}
+
+.index__titulo{
+	font-weight: 900;
+	font-size: xx-large;
+	text-align: center;
+	color: #ECE1D1;
+	margin: 2rem;
+	display: block;
+}
+
+.index__foto{
+	display: inline-block;
+	width: 40%;
+	margin: 5rem;
+}
+
+.datos{
+	height: 110px;
+	align-content: stretch;
+	flex-direction: column;
+}
+
+.estadistica{
+	background: #BFBDB4;
+	color: #461D22;
+	padding: 18px;
+	border: 3px solid #461D22;
+	margin: 60px;
+	display: inline;
+}
+
+.boton{
+	background-color: #7A9252;
+	font-weight: 700;
+	color: #ECE1D1;
+	height: 76px;
+	width: 25%;
+	margin: 50px;
+}
+
+.link{
+	color: #461D22;
+	font-weight: 700;
+	font-size: large;
+	text-align: center;
+	list-style-type: none;
+	padding: 50px;
+	text-decoration: none;
+}
+
+.link:hover{
+	color: #AAD1CC;
+}
+
+.index__fotoplaylist{
+	display: inline-block;
+	width: 66%;
+	margin: 4rem;
+	border: 4px solid black;
+}
+
+.playlist_items{
+	color: #253F58;
+	font-weight: 300;
+	font-size: medium;
+	text-align: left;
+	list-style-type: none;
+}
+
+.footer__titulo{
+	font-weight: 500;
+	font-size: large;
+	background-color: #BA8871;
+	color: #EBEBEB;
+	text-align: center;
+	padding: 1rem;
+}
+
+.footer__info{
+	font-weight: 300;
+	font-size: medium;
+	text-align: center;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.footer__icon{
+	max-width: 20px;
+}
+
+.footer__link{
+	color: #EBEBEB;
+	text-decoration: none;
+}
+
+.footer__link:hover{
+	color: black;
+}
+
+/*integrantes.html*/
+
+.integrantes__titulo{
+	font-weight: 900;
+	font-size: xx-large;
+	text-align: left;
+	color: #C0C38E;
+	margin: 2rem;
+	display: block;
+}
+
+.integrantes__foto{
+	display: inline;
+	width: 20%;
+	margin: 2rem;
+}
+
+.integrantes__discos{
+	display: inline;
+	width: 30%;
+	margin: 2rem;
+}
+
+.integrantes__info{
+	font-weight: 500;
+	font-size: large;
+	text-align: left;
+	color: #BFBDB4;
+	margin: 2rem;
+	display: block;
+}
+
+/*discografia__cambio.html*/
+
+.discografia__titulo{
+	font-weight: 900;
+	font-size: xx-large;
+	text-align: left;
+	color: #ACB8C7;
+	margin: 2rem;
+	display: block;
+}
+
+.discografia__info{
+	font-weight: 500;
+	font-size: large;
+	text-align: left;
+	color: #C0C38E;
+	margin: 2rem;
+	display: block;
+}
+
+.discografia__foto{
+	display: inline;
+	width: 30%;
+	margin: 1.5rem;
+}
+
+/*giras.html*/
+
+.giras__titulo{
+	font-weight: 900;
+	font-size: xx-large;
+	text-align: left;
+	color: #888888;
+	margin: 2rem;
+	display: block;
+}
+
+.giras__foto{
+	display: inline;
+	width: 40%;
+	margin: 2rem;
+}
+
+.giras__foto:hover{
+	transform: scale(1.2);
+}
+
+.giras__info{
+	font-weight: 500;
+	font-size: large;
+	text-align: left;
+	color: #BFBDB4;
+	margin: 2rem;
+	display: block;
+}
+
+/*contacto.html*/
+
+.contact{
+	padding: 3rem;
+}
